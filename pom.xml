@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.Ray_Mac</groupId>
+    <artifactId>S.M.S_Libraries</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>8</maven.compiler.release>
+<!--        <exec.mainClass>com.ray_mac.ray.mac_e.r.p_school_management.RayMac_ERP_School_Management</exec.mainClass>-->
+    </properties>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Daniel-Karongo/S.M.S_Libraries</url>
+        </repository>
+    </distributionManagement>
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.netbeans.lib.awtextra</groupId>
+            <artifactId>AbsoluteLayout</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/libs/AbsoluteLayout.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>rojerusan</groupId>
+            <artifactId>RojeruSan</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/libs/RojeruSan.parte1.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>RSTableMetro</groupId>
+            <artifactId>RSTableMetro</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/libs/RSTableMetro.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>net.proteanit</groupId>
+            <artifactId>sql</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/libs/rs2xml.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.barbecue</groupId>
+            <artifactId>barbecue</artifactId>
+            <version>2.0-dev</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/libs/barbecue-2.0-dev.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.kenai.nbpwr</groupId>
+            <artifactId>org-jdesktop-animation-timing</artifactId>
+            <version>1.0-201002281504</version>
+        </dependency>
+    </dependencies>
+</project>
